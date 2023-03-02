@@ -98,15 +98,13 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `I love to resolve problems, any kind of it, but mostly when i have something to learn. Food and beer lover and good travel companion.`,
   aboutItems: [
     {label: 'Location', text: 'Buenos aires, Argentina', Icon: MapIcon},
     {label: 'Age', text: '28', Icon: CalendarIcon},
     {label: 'Nationality', text: 'Argentinian', Icon: FlagIcon},
     {label: 'Interests', text: 'Motorcycles, Sports, Video Games', Icon: SparklesIcon},
-    {label: 'Study', text: 'Tecnical National University (UTN)', Icon: AcademicCapIcon},
+    {label: 'Study', text: 'Technical National University (UTN)', Icon: AcademicCapIcon},
     {label: 'Employment', text: 'Woowup inc.', Icon: OfficeBuildingIcon},
   ],
 };
@@ -249,7 +247,7 @@ export const education: TimelineItem[] = [
     date: 'Present',
     location: 'Internet',
     title: 'AWS Well-Architected',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    content: <p>Well-Architected course for cloud architected</p>,
   },
   {
     date: 'Present',
@@ -362,28 +360,18 @@ export const testimonial: TestimonialSection = {
 
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
+  description: 'send me email when you need it.',
   items: [
     {
       type: ContactType.Email,
-      text: 'reachout@timbaker.me',
-      href: 'mailto:reachout@timbaker.me',
+      text: 'ezequielcorbalan@30f.com.ar',
+      href: 'mailto:ezequielcorbalan@30f.com.ar',
     },
     {
       type: ContactType.Location,
-      text: 'Victoria BC, Canada',
-      href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
-    },
-    {
-      type: ContactType.Instagram,
-      text: '@tbakerx',
-      href: 'https://www.instagram.com/tbakerx/',
-    },
-    {
-      type: ContactType.Github,
-      text: 'tbakerx',
-      href: 'https://github.com/tbakerx',
-    },
+      text: 'Buenos aires , Argentina',
+      href: 'https://goo.gl/maps/TWLPVtwMPacEhcoXA',
+    }
   ],
 };
 
