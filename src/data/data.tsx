@@ -369,7 +369,7 @@ export const contact: ContactSection = {
     },
     {
       type: ContactType.Location,
-      text: 'Buenos aires , Argentina',
+      text: 'Buenos Aires , Argentina',
       href: 'https://goo.gl/maps/TWLPVtwMPacEhcoXA',
     }
   ],
