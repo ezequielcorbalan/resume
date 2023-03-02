@@ -246,13 +246,13 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'Actually',
+    date: 'Present',
     location: 'Internet',
     title: 'AWS Well-Architected',
     content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
   },
   {
-    date: 'Actually',
+    date: 'Present',
     location: 'Tecnical Nacional University, UTN',
     title: 'systems engineering',
     content: <p>Its the perfect combination to learn software and management. Has soft and hard skills to manage entire software lifetime.</p>,
@@ -261,27 +261,75 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: 'Sept.r 2021 - Present',
+    location: 'Woowup inc.',
+    title: 'Tech Lead / Sr Full stack Software Engineer',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        Design architecture  / develop with the team Realtime / High-traffic Retail CRM Marketing application.
       </p>
     ),
   },
   {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
+    date: 'Mar. 2019 - Present',
+    location: 'Escuela tecnica N° 21.',
+    title: 'Network programming Teacher',
+    content: (
+        <p>
+          Teach networking programing and concepts of OS.
+        </p>
+    ),
+  },
+  {
+    date: 'Jun. 2020 - Sept. 2021',
+    location: 'ICOMM',
+    title: 'Sr Full stack Software Engineer',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        Develop Realtime application for email/sms sending.
       </p>
     ),
   },
+  {
+    date: 'Jun. 2017 - jun. 2020',
+    location: 'SportClub',
+    title: 'Tech Lead / Sr Full stack Software Engineer',
+    content: (
+        <p>
+          Biometric access control / payments process.
+        </p>
+    ),
+  },
+  {
+    date: 'Dic. 2016 - jun. 2017',
+    location: 'Teracode (GCBA)',
+    title: 'FrontEnd Developer',
+    content: (
+        <p>
+          Develop Angular2 application for buenos aires government
+        </p>
+    ),
+  },
+  {
+    date: 'Nov. 2015 - Nov. 2016',
+    location: 'Apernet',
+    title: 'Sr Full stack developer',
+    content: (
+        <p>
+          Develop application for marketing clients
+        </p>
+    ),
+  },
+  {
+    date: 'jun. 2011 - 2015',
+    location: '30F',
+    title: 'Analist / Developer',
+    content: (
+        <p>
+          Develop end to end proyects for clients. Owner of the company
+        </p>
+    ),
+  }
 ];
 
 /**
@@ -291,19 +339,19 @@ export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
-      name: 'John Doe',
-      text: 'Use this as an opportunity to promote what it is like to work with you. High value testimonials include ones from current or past co-workers, managers, or from happy clients.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
+      name: 'Ariel Pigni',
+      text: 'Ezequiel is an accomplished IT Leader with whom I had the opportunity to work with for more than 3 years. We faced together the digital transformation of the business and the creation of the Develop Team that made it possible. He has the ability to quickly translate complex business issues into implementable technology solutions. His background as school teacher allows him to excel partnership and professional growth to all members of the Team he leads. Working with Ezequiel was a real pleasure and I look forward to working with him on future projects.',
+      image: 'https://media.licdn.com/dms/image/C4E03AQEL2nVKKrzNVQ/profile-displayphoto-shrink_100_100/0/1649101783538?e=1683158400&v=beta&t=WkAoWuBlnkgYcn_YdApROMYy-ypRf3M0q00SovpUib0',
     },
     {
-      name: 'Jane Doe',
-      text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
+      name: 'Gaston Parez Brea',
+      text: 'Ezequiel tiene un perfil muy técnico, con muchísimo conocimiento en la materia, pero supero pragmático proactivo y comercial, lo que lo hace aún más interesante. Desde el lado humano súper cordial y a disposición. Lo elijo para mi equipo.',
+      image: 'https://media.licdn.com/dms/image/C4E03AQE2bBUGucmMEA/profile-displayphoto-shrink_100_100/0/1649524820676?e=1683158400&v=beta&t=kBLpzsFrEkh2qTw7vmiL1U4N2xw3ts7Z_pzMPIplqEE',
     },
     {
-      name: 'Someone else',
-      text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
+      name: 'Sebastian Seminara',
+      text: 'Una de las personas más importantes que estuvo en Experiencia Futbol en el área de desarrollo. Excelentisimo profesional y lider para llevar a cabo todos los proyectos que se plantean, siempre con mirada a futuro.Aunque se planteen desafios difíciles y complejos, siempre le encuentra la forma de resolverlo. Lo super recomiendo para cualquier empresa de desarrollo. 100% comprometido y responsable.',
+      image: 'https://media.licdn.com/dms/image/C4E03AQHDdgeW8EmmLg/profile-displayphoto-shrink_100_100/0/1558459441828?e=1683158400&v=beta&t=j3Z9TuQOswIVKuv-ztFIDk2XqeRPdQnqJt2McZ8-j8Q',
     },
   ],
 };
