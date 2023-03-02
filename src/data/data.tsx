@@ -98,7 +98,7 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `I love to resolve problems, any kind of it, but mostly when i have something to learn. Food and beer lover and good travel companion.`,
+  description: `I love to resolve problems, any kind of it, but mostly when I have something to learn. Food/beer lover and good travel companion.`,
   aboutItems: [
     {label: 'Location', text: 'Buenos aires, Argentina', Icon: MapIcon},
     {label: 'Age', text: '28', Icon: CalendarIcon},
@@ -244,33 +244,33 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'Present',
+    date: 'In progress',
     location: 'Internet',
     title: 'AWS Well-Architected',
     content: <p>Well-Architected course for cloud architected</p>,
   },
   {
-    date: 'Present',
+    date: 'In progress',
     location: 'Tecnical Nacional University, UTN',
-    title: 'systems engineering',
+    title: 'Systems engineering',
     content: <p>Its the perfect combination to learn software and management. Has soft and hard skills to manage entire software lifetime.</p>,
   },
 ];
 
 export const experience: TimelineItem[] = [
   {
-    date: 'Sept.r 2021 - Present',
+    date: 'Sept. 2021 - Present',
     location: 'Woowup inc.',
     title: 'Tech Lead / Sr Full stack Software Engineer',
     content: (
       <p>
-        Design architecture  / develop with the team Realtime / High-traffic Retail CRM Marketing application.
+        Design architecture / develop Realtime / High-traffic Retail CRM Marketing application.
       </p>
     ),
   },
   {
     date: 'Mar. 2019 - Present',
-    location: 'Escuela tecnica N° 21.',
+    location: 'Technical School N° 21.',
     title: 'Network programming Teacher',
     content: (
         <p>
@@ -294,7 +294,7 @@ export const experience: TimelineItem[] = [
     title: 'Tech Lead / Sr Full stack Software Engineer',
     content: (
         <p>
-          Biometric access control / payments process.
+          Biometric access control / payment processing services.
         </p>
     ),
   },
@@ -360,7 +360,7 @@ export const testimonial: TestimonialSection = {
 
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: 'send me email when you need it.',
+  description: 'send me email when ever need it.',
   items: [
     {
       type: ContactType.Email,
