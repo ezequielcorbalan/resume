@@ -73,14 +73,14 @@ export const heroData: Hero = {
         at <strong className="text-stone-100">Woowup Inc.</strong> helping design/build features for CRM Retail.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I love teaching. Nowadays, I work as a <strong className="text-stone-100">technical high school professor</strong> in <strong className="text-stone-100">Buenos aires</strong>.
+        I love teaching. Nowadays, I work as a <strong className="text-stone-100">technical high school professor</strong> in <strong className="text-stone-100">Buenos Aires</strong>.
         I strongly believe the next generation has the <strong className="text-stone-100">power</strong> to increase the quality of software.
       </p>
     </>
   ),
   actions: [
     {
-      href: '/assets/resume.pdf',
+      href: 'shorturl.at/qAEPU',
       text: 'Resume',
       primary: true,
       Icon: DownloadIcon,
@@ -100,7 +100,7 @@ export const aboutData: About = {
   profileImageSrc: profilepic,
   description: `I love to resolve problems, any kind of it, but mostly when I have something to learn. Food/beer lover and good travel companion.`,
   aboutItems: [
-    {label: 'Location', text: 'Buenos aires, Argentina', Icon: MapIcon},
+    {label: 'Location', text: 'Buenos Aires, Argentina', Icon: MapIcon},
     {label: 'Age', text: '28', Icon: CalendarIcon},
     {label: 'Nationality', text: 'Argentinian', Icon: FlagIcon},
     {label: 'Interests', text: 'Motorcycles, Sports, Video Games', Icon: SparklesIcon},
@@ -304,7 +304,7 @@ export const experience: TimelineItem[] = [
     title: 'FrontEnd Developer',
     content: (
         <p>
-          Develop Angular2 application for buenos aires government
+          Develop Angular2 application for Buenos Aires government
         </p>
     ),
   },
